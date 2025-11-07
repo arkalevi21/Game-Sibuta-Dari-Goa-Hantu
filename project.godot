@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Skeleton Forest"
-config/description="A simple game in which you need to survive an endless onslaught of enemies. You can't win, just get the most score!"
+config/name="Sibuta Dari Goa Hantu"
+config/description=Penjelajah Bernama Si Udin"
 config/tags=PackedStringArray("arcade", "mygames")
 run/main_scene="res://Scenes/menu.tscn"
 config/features=PackedStringArray("4.5", "Mobile")
@@ -22,10 +22,10 @@ GlobalHandler="*res://Globals/global_handler.gd"
 
 [display]
 
-window/size/viewport_width=1280
-window/size/viewport_height=720
-window/size/resizable=false
-window/stretch/mode="canvas_items"
+macos/size/viewport_width=1280
+macos/size/viewport_height=720
+macos/size/resizable=false
+macos/stretch/mode="canvas_items"
 
 [gui]
 
